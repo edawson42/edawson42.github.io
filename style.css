@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;  
+}
+body {
+  background-image: url("https://farm5.static.flickr.com/4003/4445544224_8b1c059ba6_b.jpg");
+  background-color: #33485f;
+  filter: alpha(Opacity=90);
+  margin: 0px;
+  opacity: 0.9;
+}
+h1 {
+  color: #e6e6e6;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  text-shadow: 2px 3px #000000;
+}
+h2 {
+  color: #e6e6e6;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 3px #000000;
+}
+.actions {
+  margin-top: 30px;
+  text-align: center;
+}
+.actions a {
+  background-color: #444444;
+  border-radius: 10px;
+  border: 2px solid #000;
+  color: #ffffff;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#gameboard {
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+
+.card {
+  background-color: grey;
+  border: 2px solid #9DD1F1;
+  display: inline-block;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding: 30px auto;
+  text-align: center;
+  width: 200px;
+}
+.card:hover {
+  background-color: #004E89;
+  border-color: #004E89;
+}
+.card img {
+  height: auto;
+  max-width: 100%;
+  padding-top: 0px;
+}
+.navbar {
+  background-color: #aaaaaa;
+  color: white;
+  margin:0 auto;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  background-color: #024077;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 2px 3px #000000;
+}
+#skills {
+  color: #ffffff;
+  font-size: 200%;
+  padding: 20px;
+  text-align: right;
+  text-shadow: 2px 2px #000000;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+.about {
+  background-color: grey;
+  border: 2px solid #9DD1F1;
+  height: auto;
+  margin-top: 400px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  padding: 30px auto;
+  padding-top: 0px;
+  position: relative;
+  text-align: center;
+  top: 50px;
+}
