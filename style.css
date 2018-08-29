@@ -1,123 +1,87 @@
 * {
-	box-sizing: border-box;  
+  padding: 1;
+  margin: 1;
 }
-body {
-  background-color: #33485f;
-  filter: alpha(Opacity=90);
+.header {
+  background-color: #5D8FA7;
+  border-radius: 0.5em;
+  box-shadow: 5px 5px #232B28;
+  align-items:center;
+  justify-content:center
+  padding: 1px;
+  text-shadow: 1px 2px #DCE1DC;
+}
+#mainimage img {
+  border: 10px double rgb(3, 3, 43);
+  border-radius: 10rem;
+  box-shadow: 5px 5px #232B28;
+  grid-column: 1;
+  margin: auto;
+  position: absolute;
+  width: 100px;
+}
+#mainimage{
+}
+#name {
+  color: rgb(7, 7, 7);
+  font-family: "Cabin Sketch", Helvetica, sans-serif;
+  font-size: 4rem;
+  grid-column: 2;
+  padding: 1px;
+  text-align: center;
+}
+.main {
+  color: black;
+  display: grid;
+  grid-auto-columns: 50% auto;
+  list-style-type: none;
+  padding: 10px 0px;
+}
+#menu {
+  align-content: center;
+  border-radius: 0.3em;
+  color: black;
+  grid-column: 1;
+  justify-content: center;
+  list-style-type: none;
   margin: 0px;
-  opacity: 0.9;
-}
-h1 {
-  color: #e6e6e6;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 100px;
-  font-weight: 400;
-  margin: 0;
-  padding: 0px;
+  padding: 1px;
   text-align: center;
-  text-shadow: 2px 3px #000000;
 }
-h2 {
-  color: #e6e6e6;
-  font-family: 'Yantramanav', sans-serif;
+#menu li {
+  background-color: #A5B7C1;
+  border-radius: 0.5em;
+  font-family: 'BioRhyme Expanded', serif;
   font-size: 30px;
-  font-weight: 500;
-  letter-spacing: 5px;
-  padding: 100px 0px 0px 0px;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 2px 3px #000000;
-}
-.actions {
-  margin-top: 30px;
-  text-align: center;
-}
-.actions a {
-  background-color: #444444;
-  border-radius: 10px;
-  border: 2px solid #000;
-  color: #ffffff;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  display: inline-block;
-  margin: 50px;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-#gameboard {
-  position: relative;
-  text-align: center;
-  top: 200px;
-}
-
-.card {
-  background-color: grey;
-  border: 2px solid #9DD1F1;
-  display: inline-block;
-  margin-top: 200px;
-  margin-bottom: 50px;
-  padding: 30px auto;
-  text-align: center;
-  width: 200px;
-}
-.card:hover {
-  background-color: #004E89;
-  border-color: #004E89;
-}
-.card img {
-  height: auto;
-  max-width: 100%;
-  padding-top: 0px;
-}
-.navbar {
-  background-color: #aaaaaa;
-  color: white;
-  margin:0 auto;
-  overflow: hidden;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  width: 100%;
-}
-.navbar a {
-  background-color: #024077;
-  border-radius: 10px;
-  color: #ffffff;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-shadow: 2px 3px #000000;
-}
-#skills {
-  color: #ffffff;
-  font-size: 200%;
-  padding: 20px;
-  text-align: right;
-  text-shadow: 2px 2px #000000;
-  width: 100%;
+  list-style-type: none;
+  margin: 5px;
 }
 ul {
-  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
-.about {
-  background-color: grey;
-  border: 2px solid #9DD1F1;
-  height: auto;
-  margin-top: 400px;
-  margin-bottom: 50px;
-  max-width: 100%;
-  padding: 30px auto;
-  padding-top: 0px;
-  position: relative;
+#about {
+  align-content: center;
+  background-color: #A5B7C1;
+  border-radius: 0.5em;
+  box-shadow: 5px 5px #232B28;
+  color: white;
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 1rem;
+  grid-column: 2;
+  margin: 1px;
+  padding: 1px;
   text-align: center;
-  top: 50px;
+  text-shadow: 10px 5px 10px #000, 3px 5px 3px #5D8FA7;
+}
+.footer {
+  font-family: Comfortaa, Helvetica, sans-serif;
+  font-size: 2px;
+  text-align: right;
+}
+#contact li {
+  display: inline-flex;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 5px;
 }
